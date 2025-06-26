@@ -12,6 +12,7 @@ namespace C_Sharp_Demo
         {
             Student student = new Student();
             Console.WriteLine("The value of i is: " + student.i);
+            Console.ReadLine();
         }
     }
 }
