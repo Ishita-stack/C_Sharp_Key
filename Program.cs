@@ -10,6 +10,8 @@ namespace C_Sharp_Demo
     {
         static void Main(string[] args)
         {
+            Student student = new Student();
+            Console.WriteLine("The value of i is: " + student.i);
         }
     }
 }
