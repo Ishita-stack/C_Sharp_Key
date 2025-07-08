@@ -6,8 +6,23 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_Demo
 {
-    internal class Student
+    public class Student
     {
-        public int i=20;
+        public Student()
+        {
+            Console.WriteLine("Parent constructor Called");
+        }
+        public void test1()
+        {
+            Console.WriteLine("Test1");
+        }
+        public void test2()
+        {
+            Console.WriteLine("Test2");
+        }
+        public void test3()
+        {
+            Console.WriteLine("Parent Test3");
+        }
     }
 }
